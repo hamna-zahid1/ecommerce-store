@@ -1,0 +1,21 @@
+@import url("https://fonts.cdnfonts.com/css/made-mirage");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import "global/base";
+}
+
+@layer utilities {
+  @import "global/utils";
+}
+
+@layer components {
+  @import "components/common";
+  @import "components/header";
+  @import "components/input";
+  @import "components/button";
+  @import "components/field-wrapper";
+}
